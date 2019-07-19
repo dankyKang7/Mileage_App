@@ -1,0 +1,1 @@
+This app will take in the miles drive, gas consumed, cost of refill, and date added to commpute the gas mileage over time. Also your total car miles will be added into the system and displayed to detail your vehicles performance.
