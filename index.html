@@ -2,13 +2,17 @@
 <html>
     <head>
         <title>GAS MILEAGE APP</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>Car Mileage App</h1>
+        <header>
+            <h1>Car Mileage App</h1>
+        <hr>
+        </header>
         <p>This app will enter and display your car mileage</p>
         <div id='carselector'>
             <form action="" method="GET">
+            <div id='cartype'>
                 <p>What Type of Vehicle do you have?</p>
                 <select name="Vehicle">
                     <option value="Audi">Audi</option>
@@ -21,11 +25,23 @@
                     <option value="GMC">GMC</option>
                     <option value="Honda">Honda</option>
                     <option value="Nissan">Nissan</option>
-                    <option value="Dodge">Dodge</option>
-                    <option value="Dodge">Dodge</option>
-                    <option value="Dodge">Dodge</option>
-                    <option value="Dodge">Dodge</option>
+                    <option value="Dodge">Volkswagen</option>
                 </select>
+            </div>
+            <div id='caryear'>
+                <label>Vehicle Year:</label></br>
+                <input type='text' name='caryear'/>
+            </div>
+            <div id='carmmodel'>
+                <label>Make of vehicle:</label>
+            </br>
+                <input type='text' name='make'/>
+            </div>
+            <div id='carmileage'>
+                <label>Current mileage</label>
+            </br>
+                <input type='text' name='mileage'/>
+            </div>
             </form>
         </div>
     </body>
