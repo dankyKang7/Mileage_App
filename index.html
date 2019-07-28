@@ -3,13 +3,28 @@
     <head>
         <title>GAS MILEAGE APP</title>
         <link rel="stylesheet" href="styles.css">
+        <script src="javascript.js"><</script>
+        <meta name="description"
+          content="Car Mileage App"/>
+        <meta http-equiv="author"
+            content="Travis Mattson 2019"/>
     </head>
     <body>
         <header>
-            <h1>Car Mileage App</h1>
+            <h1><i>Car Mileage App</i></h1>
         <hr>
         </header>
-        <p>This app will enter and display your car mileage</p>
+        <p>About: This app will enter and display your car mileage</p>
+        <div id='signin'>
+            <form action=""
+                method="post">
+                <label for="username">Username:</label></br>
+                <input type="text" name="username" required="required"/></br>
+                <label for="password">Password:</label></br>
+                <input type="password" name="password"required="required"/></br>
+                <input id="submit" type="submit" value="Submit"/>
+            </form>
+        </div>
         <div id='carselector'>
             <form action="" method="GET">
             <div id='cartype'>
@@ -29,17 +44,15 @@
                 </select>
             </div>
             <div id='caryear'>
-                <label>Vehicle Year:</label></br>
+                <label>Vehicle Year:</label>
                 <input type='text' name='caryear'/>
             </div>
             <div id='carmmodel'>
-                <label>Make of vehicle:</label>
-            </br>
+                <label>Model of vehicle:</label>
                 <input type='text' name='make'/>
             </div>
             <div id='carmileage'>
                 <label>Current mileage</label>
-            </br>
                 <input type='text' name='mileage'/>
             </div>
             </form>

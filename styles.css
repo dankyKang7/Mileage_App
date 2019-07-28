@@ -1,6 +1,25 @@
 body{
-    color: blue;
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 header {
     text-align:center;
+    background-color: lightgrey;
+}
+#signin{
+    height: 100px;
+    width: 200px;
+    border-width: 50px;
+    border-color: peru;
+    
+}
+
+#carselector{
+
+}
+form{
+    text-align:left;
+    padding-bottom: 10px;
+    margin: 10px;
 }
